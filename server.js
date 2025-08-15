@@ -68,7 +68,6 @@ app.delete('/deleteProduct', (req, res) => {
 
     res.status(200).send({
         message: 'Product deleted successfully!',
-        deletedProduct: deletedProduct[0]
     });
 });
 
